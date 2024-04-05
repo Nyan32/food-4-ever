@@ -1,0 +1,19 @@
+.penjelasan-singkat{
+    width:100%;
+}
+
+.gallery-foto{
+    width: 100%;
+    height: 75vw;
+}
+
+@media screen and (min-width: 576px) {
+    .penjelasan-singkat{
+        width: 500px;
+    }
+
+    .gallery-foto{
+        width: 500px;
+        height: 375px;
+    }
+}

@@ -1,0 +1,96 @@
+.kategori-menu-side{
+    width: 60%;
+    max-width: 300px;
+    min-height: 100vh;
+    height: auto;
+}
+
+.img-kategori-cont{
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+    height: 80px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+.img-kategori{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-card{
+    width:50%;
+}
+
+.card-img-menu{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.kategori-btn:hover, .kategori-btn:active, .kategori-btn:focus{
+    border: solid 2px black;
+}
+
+.btn-kategori-text{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-check-out{
+    font-size: 1.3em;
+}
+
+.btn-detail:hover, .btn-detail:focus, .btn-detail:active{
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: Overclock;
+    src: url('../font/overclock/Overlock-Black.ttf');
+}
+
+@font-face {
+    font-family: Overclock;
+    src: url('../font/overclock/Overlock-Bold.ttf');
+    font-weight: bold;
+}
+
+@media screen and (min-width: 576px) {
+    .menu-card{
+        width:33.333%;
+    }
+}
+
+.close-kategori-min{
+    animation: close-kategori-min-anim 500ms forwards cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+@keyframes close-kategori-min-anim {
+    0%{
+        height:40vh;
+        bottom:0;
+    }
+    100%{
+        height: 0vh;
+        bottom:0;
+    }
+}
+
+.open-kategori-min{
+    animation: open-kategori-min-anim 500ms forwards cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+@keyframes open-kategori-min-anim {
+    0%{
+        height:0vh;
+        bottom:0;
+    }
+    100%{
+        height: 40vh;
+        bottom:0;
+    }
+}

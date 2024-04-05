@@ -1,0 +1,137 @@
+*{
+    box-sizing:border-box;
+    font-family: Overlock;
+    font-weight: bold;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.os-padding { z-index: auto !important; }
+
+ul, li {
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+/* unvisited link */
+a:link {
+    color: rgba(160,110,73,1);
+}
+
+/* visited link */
+a:visited {
+    color: rgba(160,110,73,1);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgba(177, 122, 80, 1);
+}
+
+/* selected link */
+a:active {
+    color: rgba(160,110,73,1);
+}
+
+.bg-brown-1{
+    background-color:#aa4400 !important;
+}
+
+.bg-brown-2{
+    background-color: #803300 !important;
+}
+
+.bg-yellow-1{
+    background-color: #e0a626 !important;
+}
+
+.ft-white-1{
+    color: white;
+}
+
+.bg-grey-1{
+    color: rgb(134, 134, 134);
+}
+
+.btn-style-1{
+    background-color: #e0a626 !important;
+    color: black;
+}
+
+.btn-style-1:hover, .btn-style-1:focus{
+    border-color: black !important;
+}
+
+.btn-style-1:active{
+    background-color: #ce9823 !important;
+}
+
+.btn-style-2{
+    background-color: black !important;
+    color: white;
+}
+
+.btn-style-2:hover, .btn-style-2:focus{
+    border-color: rgb(134, 134, 134)!important;
+}
+
+.btn-style-2:active{
+    background-color: rgb(26, 26, 26) !important;
+}
+
+.input-text, .input-textarea{
+    border:none;
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+    outline: none;
+    display: block;
+    background: transparent;
+    font-size: 1.3em;
+    color: rgb(70, 70, 70);
+    width: 100%;
+    padding: 0.3em;
+}
+
+.input-text:focus, .input-textarea:focus{
+    border-bottom: 2px solid rgba(160,110,73,0.5);
+    color: rgba(160,110,73,1);
+}
+
+.input-textarea{
+    resize: none;
+    height: 100px;
+}
+
+.alert-note{
+    color:red;
+    font-size: 0.75em;
+}
+
+.clean-btn{
+    outline: none;
+    background-color: transparent;
+    border: solid 2px transparent;
+}
+
+/* Important part */
+.modal-dialog{
+    overflow-y: initial !important
+}
+
+.modal-body{
+    height: 80vh;
+    overflow-y: auto;
+}
+
+@font-face {
+    font-family: Overlock;
+    src: url('../font/overclock/Overlock-Black.ttf');
+}
+  
+@font-face {
+    font-family: Overlock;
+    src: url('../font/overclock/Overlock-Bold.ttf');
+    font-weight: bold;
+}

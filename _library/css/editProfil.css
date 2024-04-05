@@ -1,0 +1,11 @@
+.form-edit{
+    width:100%;
+}
+.btn-close-notif:hover{
+    text-decoration: underline;
+}
+@media screen and (min-width: 576px) {
+    .form-edit{
+        width: 500px;
+    }
+}

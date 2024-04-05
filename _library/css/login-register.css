@@ -1,0 +1,41 @@
+html { 
+    background: url('../../administrator/img/style/bg_login_register.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+  background-color: transparent;
+  height: 100vh;
+}
+
+.form-area{
+  width: 100%;
+  min-height: 100vh;
+  font-family: Overlock;
+  font-weight: bold;
+}
+
+.input-label{
+  display: block;
+  font-size: 1em;
+}
+
+@font-face {
+  font-family: Overlock;
+  src: url('../font/overclock/Overlock-Black.ttf');
+}
+
+@font-face {
+  font-family: Overlock;
+  src: url('../font/overclock/Overlock-Bold.ttf');
+  font-weight: bold;
+}
+
+@media screen and (min-width: 576px) {
+  .form-area{
+    width: 320px;
+  }
+}

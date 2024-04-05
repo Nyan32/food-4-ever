@@ -1,0 +1,81 @@
+.header-drop-btn{
+    outline: none;
+    border: none;
+}
+
+.header-home-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.header-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.header-list li button{
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-family: Overlock;
+    font-weight: bold;
+}
+
+.header-list li button:hover, .header-list li button:focus{
+    text-decoration: underline;
+}
+
+#fotoProfilHor{
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    object-fit:cover;
+    border: solid 2px black !important;
+}
+
+.foto-profil-btn-hor:focus #fotoProfilHor, .foto-profil-btn-hor:hover #fotoProfilHor{
+    border: solid 2px #aa4400 !important;
+}
+
+.icon-header-close::before{
+    transform:rotate(0deg);
+}
+
+.icon-header-open::before{
+    transform:rotate(180deg);
+}
+
+.foto-profil-btn-ver{
+    width:auto;
+    height:auto;
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    box-sizing: border-box;
+    object-fit: cover;
+    border: solid 2px white !important;
+}
+
+@font-face {
+    font-family: Overlock;
+    src: url('../font/overclock/Overlock-Black.ttf');
+}
+  
+@font-face {
+    font-family: Overlock;
+    src: url('../font/overclock/Overlock-Bold.ttf');
+    font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+    .header-home-btn{
+        width: auto;
+    }
+}
